@@ -34,5 +34,6 @@ int main(int argc, char** argv) {
 	cout<<setprecision(2)<<fixed<<showpoint;
 	cout<<"The average rainfall for "<<m1<<", "<<m2<<", and "<<m3<<" is \n"
 		<<avg<<" inches.";
-	return 0;
+	system("PAUSE");
+    return EXIT_SUCCESS;
 }

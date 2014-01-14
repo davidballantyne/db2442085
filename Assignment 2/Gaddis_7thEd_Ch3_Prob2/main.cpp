@@ -32,8 +32,9 @@ int main(int argc, char** argv) {
 	total= a + b + c; 
 	//output
 	cout<< setprecision(2)<< fixed<< showpoint<<endl;
-	cout<<"The total amount from ticket sales are $"<< total; 
+	cout<<"The total amount from ticket sales is $"<< total<<" "; 
 	
 	//Exit Stage Right
-	return 0;
+	system("PAUSE");
+    return EXIT_SUCCESS;;
 }

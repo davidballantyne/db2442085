@@ -36,5 +36,6 @@ int main(int argc, char** argv) {
 		<<"is "<<slices<<" slices.\n";
 		
 	//exit stage right	
-	return 0;
+	system("PAUSE");
+    return EXIT_SUCCESS;;
 }
