@@ -18,15 +18,17 @@ int main(int argc, char** argv) {
         //Declare Variables
         double pi= 3.141592653589793;// Because getting the closest exact area of pizza is important
         float r, area, slices, temp;// diameter = 2 * radius
-        int guests, temp2, pizzas;
+        int guests, pizzas;
         //promt
         cout<<"To calcuclate how many pizzas you need to buy for party\n"
         	<<"please enter your total number of party guests.\n";
-        cin>> guests; // 1 guest = 4 slices
+        // 1 guest = 4 slices
+        cin>> guests;
         cout<<"Calculate the number of pizza slices available respective to the diameter\n"
               <<"of your pizzas.\n";
         cout<<"Enter the diameter of your pizzas in inches\n";
-        cin>> r;//8.48162 diameter = 56.5inch^2 area / 14.125 = 4 slices = 1 guest 
+        //8.48162 inch (diameter) = 56.5inch^2 (area) / 14.125 (1 slice)  = 4 slices = 1 guest 
+        cin>> r;
         //process
         r= r/2;
         area = pi*(r*r);
@@ -44,5 +46,7 @@ int main(int argc, char** argv) {
                 <<"is "<<slices<<" slices.\n";
         
         //exit stage right        
-        return 0;
+        system("PAUSE");
+        return EXIT_SUCCESS;
 }
+
