@@ -24,6 +24,7 @@ int main(int argc, char *argv[]){
     
     //number to numeral conversion
     //I II III IV V VI VII VIII IX X
+    //X XX XXX XL L LX LXX LXXX XC C
     //loop
     
     char numrl= number/10;//find out tens
