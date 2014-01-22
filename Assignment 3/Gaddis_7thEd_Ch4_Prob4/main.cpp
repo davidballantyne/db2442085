@@ -29,7 +29,7 @@ int main(int argc, char *argv[]){
     	cout<<"The first rectangle is larger with an area of "<<a1<<endl;
     	cout<<"The second rectangle is smaller with an area of "<<a2<<endl;
 	}
-    else if (a2>a2){
+    else if (a2>a1){
     
 		cout<<"The second rectangle is larger with an area of "<<a2<<endl;
     	cout<<"The first rectangle is smaller with an area of "<<a1<<endl;
