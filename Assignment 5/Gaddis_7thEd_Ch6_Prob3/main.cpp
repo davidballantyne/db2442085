@@ -27,7 +27,8 @@ float getSales(float sales){
       cin>>sales;
       if (sales<0){
          cout<<"ERROR: please restar program\n";
-         return 0;
+         }
+         return sales;
       }
-      
+void findHighest(){
       
