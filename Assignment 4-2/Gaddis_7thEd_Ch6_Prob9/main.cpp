@@ -1,7 +1,7 @@
 /*
 David Ballantyne
 01/27/14
-purpose:Gaddis_7thEd_Ch6_Prob6
+purpose:Gaddis_7thEd_Ch6_Prob9
 */
 //Libraries
 #include <cstdlib>
