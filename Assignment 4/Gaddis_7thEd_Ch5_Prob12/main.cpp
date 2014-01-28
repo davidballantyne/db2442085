@@ -1,7 +1,7 @@
 /* 
  * David Ballantyne
  * Created on January 14, 2014, 10:43 AM
- * purpose: Gaddis_7thEd_Ch3_Prob12
+ * purpose: Gaddis_7thEd_Ch4_Prob12
  */
 //Libraries
 #include <cstdlib>
