@@ -1,5 +1,5 @@
-//Dr. Mark E. Lehr
-//January 14th, 2014
+//David Ballantyne
+//January 28th, 2014
 //Menu to be used for the midterm
 //homework and final, etc....
 
